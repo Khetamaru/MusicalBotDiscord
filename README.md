@@ -1,3 +1,3 @@
 # MusicalBotDiscord
 
-Small school project by Anthony Lasserre and Benoît SCHULER in Kotlin
+Small school project by Anthony LASSERRE and Benoît SCHULER in Kotlin
