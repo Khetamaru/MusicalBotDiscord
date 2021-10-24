@@ -17,6 +17,14 @@
 		<java.version>1.8</java.version>
 		<kotlin.version>1.5.31</kotlin.version>
 	</properties>
+	<repositories>
+		<repository>
+			<id>dv8tion</id>
+			<name>m2-dv8tion</name>
+			<url>https://m2.dv8tion.net/releases</url>
+		</repository>
+	</repositories>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -46,16 +54,14 @@
 		<dependency>
 			<groupId>net.dv8tion</groupId>
 			<artifactId>JDA</artifactId>
-			<version>1.2.2_139</version>
+			<version>4.3.0_277</version>
 		</dependency>
 
 		<dependency>
-			<groupId>com.jagrosh</groupId>
-			<artifactId>jda-utilities</artifactId>
-			<version>3.0.5</version>
-			<type>pom</type>
+			<groupId>dev.kord</groupId>
+			<artifactId>kord-core</artifactId>
+			<version>0.8.0-M6</version>
 		</dependency>
-
 
 	</dependencies>
 
